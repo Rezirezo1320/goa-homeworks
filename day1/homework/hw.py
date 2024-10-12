@@ -1,2 +1,3 @@
-print("rezi kurdadze")
+print("rezi")
+print("kurdadze")
 print(14)
