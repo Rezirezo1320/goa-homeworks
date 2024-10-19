@@ -1,4 +1,4 @@
-sports = "rugbi"
+sports = "rugby"
 weight = 75
 height = 1.75
 age = 14
