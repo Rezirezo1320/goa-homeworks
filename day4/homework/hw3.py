@@ -1,4 +1,4 @@
-mother_age = 34
+mother_age = 33
 father_age = 37
 sister_age = 4
 sister_age = 2

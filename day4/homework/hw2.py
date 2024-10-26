@@ -1,3 +1,3 @@
 celcius = 32
-fahreitnh = celcius * 2
-print(fahreitnh)
+fahrenheit = (celcius * 9/5)+32
+print(fahrenheit )
