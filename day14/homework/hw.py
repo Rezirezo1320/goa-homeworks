@@ -59,7 +59,9 @@ num5  = input("enter your number")
 
 for u in range(num1,num2,num3,num4,num5))
  
-
+ name=input("enter your name:")
+for i in name:
+ print(i)
 
 
 >>>>>>> b1ff9f8e71e757d5bea01862ac1bbb42dc755ba1
