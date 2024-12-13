@@ -1,6 +1,6 @@
 r = int(input("number:"))
 if r % 5==0:
-        print(r,"not divisible")
+        print(r,"divisible")
 else:
-        print(r, "divisible")
+        print(r, "not divisible")
         
