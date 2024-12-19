@@ -1,15 +1,16 @@
 # ჩვენ შეგვიძლია if-ის შემდეგ დავწეროთ elif else-ის მაგივრად და elif-ით შეგვიძლია 1-ზე მეტი დავალება მივცეთ if თეგს
 
 
-# num1 = float(input("enter a number"))
-# num2 = float(input("enter a number"))
-# num3 = float(input("enter a number"))
+#num1 = float(input("enter a number"))
+#num2 = float(input("enter a number"))
+#num3 = float(input("enter a number"))
 # if num1 > num2 > num3:
 #     print (num1)
 # elif num2 > num1 > num3:
 #     print (num2)
+ #elif:num3>num1 and num3 > num2
 # else:
-#     print (num3)
+#     print (=)
 
 
 
