@@ -3,6 +3,7 @@ from turtle import *
 speed(30)
 width(7)
 
+bgcolor("blue")
 
 color("orange")
 begin_fill()
