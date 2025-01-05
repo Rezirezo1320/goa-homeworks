@@ -1,0 +1,29 @@
+/*საკლასო დავალება: შექმენით css-ის ფაილი და დააკავშირეთ html-ის ფაილთან. css-ში ფაილში
+ აირჩიეთ რომელიმე ელემენტი და მას შეუცვალეთ შემდეგი 6 კუთვნილება: 
+/* ფერი, ფონის ფერი, განლაგება, ტექსტის ზომა, ტექსტის სისქე და საზღვარი8 */
+
+p {
+color: brown;
+background-color: aqua;
+font-size: 700;
+text-align: center;
+border: 4px;
+
+
+
+}
+
+
+
+div {
+    color: brown;
+    background-color: aqua;
+    font-size: 700;
+    text-align: center;
+    border: 4px;
+    
+    
+    
+    }
+    
+    
