@@ -1,0 +1,17 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .box.rotate {
+    transform: rotate(30deg);
+  }
+  

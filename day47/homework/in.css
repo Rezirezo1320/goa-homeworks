@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+
+  .center-div {
+    width: 300px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px;
+  }

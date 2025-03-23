@@ -1,0 +1,17 @@
+.parent {
+    width: 200px;
+    height: 2000px;
+    background-color: lightgreen;
+    position: relative;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+   
+}
+body{ background-image: url(image.png);background-size: 100%,100%;}
