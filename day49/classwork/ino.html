@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html lang="ka">
 <head>
-  <meta charset="UTF-8">
-  <title>Active მოვლენა</title>
- <link rel="stylesheet" href="k.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კინო საიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ff0000;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .movie {
+            background: #111;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255,0,0,0.5);
+            text-align: center;
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+        h3 {
+            color: #ff0000;
+        }
+        .movie:hover {
+    transform: scale(1.07);
+    background: #222;
+    transition: 0.1s ease-in-out;
+}
 
- 
+    </style>
 </head>
 <body>
-
-  <div>დააკლიკე ჩემზე</div>
-
+    <div class="header">🎬 კინოსამყარო 🎬</div>
+    <div class="container">
+        <div class="movie">
+            <h3>ინტერსტელარი</h3>
+            <img src="image.png" alt="ინტერსტელარი">
+            <p>სამეცნიერო ფანტასტიკა, რომელიც მოგვითხრობს კოსმოსურ მოგზაურობაზე.</p>
+        </div>
+        <div class="movie">
+            <h3>ჯონ უიკი</h3>
+            <img src="image copy.png" alt="ჯონ უიკი">
+            <p>მძაფრ-სიუჟეტიანი ფილმი პროფესიონალ მკვლელზე.</p>
+        </div>
+        <div class="movie">
+            <h3>ჯოკერი</h3>
+            <img src="image copy 2.png" alt="ჯოკერი">
+            <p>დრამა ფსიქოლოგიური ტრილერის ელემენტებით, რომელიც მოგვითხრობს ჯოკერის ისტორიას.</p>
+        </div>
+    </div>
 </body>
 </html>
+
+
