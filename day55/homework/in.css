@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: sans-serif;
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas:
+      "hero hero side1"
+      "content content side2"
+      "footer footer footer";
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 200px 150px 150px;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .box::before {
+    content: attr(data-number);
+    position: absolute;
+    background: white;
+    color: #333;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transform: rotate(45deg);
+    font-size: 16px;
+  }
+
+  .hero {
+    grid-area: hero;
+    background: linear-gradient(135deg, #ff9ff3, #f368e0);
+  }
+
+  .side1 {
+    grid-area: side1;
+    background: linear-gradient(135deg, #48dbfb, #00d2d3);
+  }
+
+  .side2 {
+    grid-area: side2;
+    background: linear-gradient(135deg, #48dbfb, #00d2d3);
+  }
+
+  .content {
+    grid-area: content;
+    background: linear-gradient(135deg, #a29bfe, #dfe6e9);
+  }
+
+  .footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  .footer .box {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+  }

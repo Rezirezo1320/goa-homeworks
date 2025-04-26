@@ -1,0 +1,23 @@
+ div{color: blue;}
+
+
+
+@keyframes moveBox {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(100vw - 100px));
+    }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 100px;
+
+  
+    animation: moveBox 5s linear infinite;
+}
